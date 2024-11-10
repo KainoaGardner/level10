@@ -5,7 +5,7 @@
 #include "fileutil.h"
 
 int main(int argc, char *argv[]) {
-  if (argc < 1) {
+  if (argc < 2) {
     fprintf(stderr, "Must supply a text file name\n");
     exit(1);
   }
